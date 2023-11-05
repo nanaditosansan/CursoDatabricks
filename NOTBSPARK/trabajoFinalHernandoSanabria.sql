@@ -263,7 +263,7 @@ select count(*) from BERKA_LOAN
 -- MAGIC %md
 -- MAGIC El campo duration que es la duración del prestámo  debiera ser numérico.
 -- MAGIC
--- MAGIC Un atrubuto relevante es el campo status de la tabla loan pues este determina en que estado está una cuenta A B C o D.
+-- MAGIC Un atributo relevante es el campo status de la tabla loan pues este determina en que estado está una cuenta A B C o D.
 -- MAGIC
 -- MAGIC Este es un campo importante pues  ayudará a determinar el resultado o variable objetivo del modelo el estado de cuenta A B C o D.
 
@@ -274,7 +274,8 @@ select count(*) from BERKA_LOAN
 
 -- COMMAND ----------
 
-
+-- MAGIC %md
+-- MAGIC Obteniendo un gráfico de barras de las categorias de prestamos
 
 -- COMMAND ----------
 
@@ -368,7 +369,7 @@ select count(*) from BERKA_LOAN
 -- COMMAND ----------
 
 -- MAGIC %md
--- MAGIC Formulamos la hipótesis que la clasificación del tipo de cuenta depende de la combinación de la cantidad de meses en las que seberia pagar un préstamo, la cantidad de meses efectivamente pagados y la cantidad de meses que deberia de tener pagado a la fecha.
+-- MAGIC Formulamos la hipótesis que la clasificación del tipo de cuenta depende de la combinación de la cantidad de meses en las que se deberia pagar un préstamo, la cantidad de meses efectivamente pagados y la cantidad de meses que deberia de tener pagado a la fecha.
 
 -- COMMAND ----------
 
@@ -498,7 +499,7 @@ select count(*) from TMINABLE1
 -- COMMAND ----------
 
 -- MAGIC %md
--- MAGIC Empezamos a construir nuevos datos agregando los datos de la anterior tabla por ejemplo generamos cuantos meses debe pagar por cada cuenta en la tabla CUANROSMESESDEBEPAGAR.
+-- MAGIC Empezamos a construir nuevos datos agregando los datos de la anterior tabla por ejemplo generamos cuantos meses se debe pagar por cada cuenta en la tabla CUANROSMESESDEBEPAGAR.
 -- MAGIC
 -- MAGIC Cuantos meses ya se han pagado de una cuenta en la tabla MESESPAGADOS
 -- MAGIC
